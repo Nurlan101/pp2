@@ -1,5 +1,5 @@
 import re
 
-s="dsflsaun_ddouhf_jofiha"
+s = "JayigHahYsagniaUsa"
 
-print(re.sub(r'_([a-z])', lambda x: x.group(1).upper(), s))
+print(re.split(r'[A-Z]', s))
